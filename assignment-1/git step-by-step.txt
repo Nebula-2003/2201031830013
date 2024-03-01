@@ -1,0 +1,71 @@
+Task-1: Create a GIT repository named as your enrollment number. Create 2
+folder in your repository named as Assignment_1 and Assignment_2.
+Prepare a word file which contains each step of this task.
+Upload your assignments in the respective folder. Share your git repository
+link in a google form asked to you at the time of submission.
+
+
+
+Step-1 Download GitHub desktop cli.
+
+Step-2 Enter command "gh auth login" to Login to the required account
+
+After entering the command the github cli will ask few questions regarding login
+	What account do you want to log into?
+Step-2.1 Choose Github.com,
+	What is your preferred protocol for Git operations on this host? 
+Step-2.2 Choose HTTPS,
+	Authenticate Git with your GitHub credentials?
+Step-2.3 Choose yes,
+	How would you like to authenticate GitHub CLI? Login with a web browser
+Step-2.4 Choose Login with a web browser
+
+! First copy your one-time code: AAD9-62BC
+Press Enter to open github.com in your browser...
+
+Step-2.5 After Choosing the "Login with a web browser" Press enter to confirm,then the github login web-page will pop open in your default browser, Enter you Credentials,
+
+Step-2.6 After Entering the correct credentials you will be prompted to enter the otp displayed in your Terminal window, enter the otp to complete the login process.
+
+
+Step-3: Enter the command "gh repo create" to create a new repository on GitHub.
+	What would you like to do? Create a new repository on GitHub from scratch
+
+
+Step-3.1: Provide a name for the repository.
+	Repository 2201031830013
+
+Step-3.2: Add a description for the repository.
+	Description SOCET assignments of 4th sem WT class Summer Semester
+
+Step-3.3: Set the visibility of the repository.
+	Visibility Public
+
+Step-3.4: Choose whether to add a README file.
+	 Would you like to add a README file? Yes
+
+Step-3.5: Choose whether to add a .gitignore file.
+	Would you like to add a .gitignore? No
+
+Step-3.6: Confirm to create the repository.
+	This will create "web-tech-assignments-2024" as a public repository on GitHub. Continue? Yes
+
+Step-3.7: Confirm the successful creation of the repository.
+	Created repository Nebula-2003/web-tech-assignments-2024 on GitHub. Continue? (Y/n) y
+
+Step-3.8: Clone the newly created repository locally.
+	Clone the new repository locally? Yes
+
+Step-3.9: Clone the repository into your local environment.
+	Cloning into 'web-tech-assignments-2024'...
+
+Step-4 make 2 folders named Assignment_1 and Assignment_2.
+	"mkdir Assignment_1 Assignment_2"
+
+Step-5 Copy paste the assignment into the respective folders.
+
+Step-6 Enter "git add ." to stage all files
+
+Step-7 Enter "git commit -m"Complete assignment"" to commit to local repo
+
+Step-8 Enter "git push" to push changes to github repository
