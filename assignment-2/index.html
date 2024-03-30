@@ -1,42 +1,105 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap" rel="stylesheet" />
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
     <link href="./css/main.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <div class="v3_2">
-        <img src="./images/image.png">
-        <div class="v3_122">
-            <div class="v3_85"></div>
-            <div class="v3_92"></div><span class="v3_86">Email</span><span class="v3_94">Password</span><span
-                class="v3_93">Login</span>
-            <div class="v3_96"></div><span class="v3_97">Social Login</span>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
+  <body style="display: flex; justify-content: center; align-items: center;">
+    <nav>
+      <!-- <div class="logo"> -->
+      <!-- <a href="#">Logo</a> -->
+      <div>
+        <span class="my_logo">CasaCrafters</span>
+      </div>
+      <!-- </div> -->
+      <ul class="nav-links">
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Discussion</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+
+    <div class="v3_2" style="display: flex; justify-content: space-between; align-items: center;">
+      <img src="./images/image.png" />
+      <div class="v3_122">
+        <div class="v3_85"></div>
+        <div class="v3_92"></div>
+        <span class="v3_86">Email</span><span class="v3_94">Password</span>
+        <!-- <div class="v3_86">
+          <label>Email</label>
         </div>
-        <div class="v3_407">
-            <div class="v3_123"></div><span class="v3_125">Terms</span><span class="v3_126">Report</span><span
-                class="v3_127">Contribute</span><span class="v3_124">About</span>
+        <div class="v3_94">
+          <label>Password</label>
+        </div> -->
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 0px;
+            padding-top: 150px;
+            font-size: 40px;
+          "
+        >
+          Login
         </div>
-        <div class="v5_432">
-            <div class="v5_433">
-                <div class="v5_434"></div>
-                <div class="v5_435"><span class="v5_436">Blog</span><span class="v5_442">Blog</span><span
-                        class="v5_437">Discussion</span><span class="v5_439">Projects</span><span
-                        class="v5_443">Profile</span></div>
-                <!-- <div class="v5_440"></div> -->
-            </div><span class="v5_441">CasaCrafters</span>
+        <input type="email" class="v3_86" placeholder="Enter your email" />
+        <input
+          type="password"
+          class="v3_94"
+          placeholder="Enter your password"
+        />
+
+        <!-- <span class="v3_93">Login</span> -->
+        <div class="v3_96">Social Login with google</div>
+        <!-- <span class="v3_97">Social Login</span> -->
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+        <div class="name"></div>
+      </div>
+      <!-- <div>akms</div> -->
+
+      <div class="v3_407">
+        <div class="v3_123"></div>
+        <span class="v3_125">Terms</span><span class="v3_126">Report</span
+        ><span class="v3_127">Contribute</span><span class="v3_124">About</span>
+      </div>
+      <div class="v5_432">
+        <div class="v5_433">
+          <div class="v5_434"></div>
+          <div class="v5_435">
+            <!-- <a class="v5_436">Blog</a><span class="v5_442">Blog</span -->
+            <a href="blog.html" class="v5_436">Blog</a>
+            <a class="v5_437" href="contribute.html">Discussion</a
+            ><a class="v5_439" href="profile.html">Projects</a
+            ><a class="v5_443" href="profile.html">Profile</a>
+          </div>
+          <div class="v5_440"></div>
         </div>
+        <span class="v5_441">CasaCrafters</span>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
